@@ -1,0 +1,36 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"lib": ["es2016", "dom"],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"removeComments": "false",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"target": "es5",
+		"baseUrl": ".",
+		"paths": {
+			"@services/*": [ "src/app/services/*"],
+			"@components/*": ["src/app/components/*"],
+			"@pipes/*": ["src/app/pipes/*"],
+			"@directives/*": ["src/app/directives/*"]
+		},
+		"types": [
+			"node",
+			"jasmine"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"app-dist",
+		"typings/main",
+		"typings/main.d.ts"
+	],
+	"awesomeTypescriptLoaderOptions": {
+		"useWebpackText": true
+	}
+}
