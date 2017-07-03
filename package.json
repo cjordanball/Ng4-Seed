@@ -1,0 +1,37 @@
+{
+	"name": "ng4seed",
+	"version": "0.0.1",
+	"description": "A starter for an Ng4 project; do not use less than version 1.0.0",
+	"main": "bootstrap.ts",
+	"scripts": {
+		"clean": "rimraf dist",
+		"serve": "webpack-dev-server --inline --progress --port 3142",
+		"test": "karma start ./config/karma.conf.js",
+		"lint": "eslint ./src/**/*.ts"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cjordanball/Ng4-Seed.git"
+	},
+	"keyworda": [
+		"Angular 4",
+		"Webpack",
+		"Karma",
+		"Jasmine",
+		"esLint",
+		"TypeScript"
+	],
+	"author": "CJB3",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cjordanball/Ng4-Seed/issues"
+	},
+	"homepage": "https://github.com/cjordanball/Ng4-Seed#readme",
+	"dependencies": {
+
+	}
+
+}
